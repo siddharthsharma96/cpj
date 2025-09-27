@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .flexContainer {
+        height: 90vh;
+        border: 1px solid red;
+        display: flex;
+        /* justify-content: space-between; */
+        /* align-items: center; */
+        /* flex-direction: column-reverse; */
+        /* flex-wrap: wrap;
+        align-content: flex-start; */
+      }
+      .flexItem {
+        height: 100px;
+        width: 100px;
+        border: 1px solid red;
+        background-color: yellow;
+        color: red;
+      }
+      .a {
+        order: 2;
+        background-color: green;
+      }
+      .b {
+        /* order: 1; */
+        align-self: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flexContainer">
+      <div class="flexItem">1</div>
+      <div class="flexItem">2</div>
+      <div class="flexItem">3</div>
+      <div class="flexItem">4</div>
+      <div class="flexItem">5</div>
+      <div class="flexItem">6</div>
+      <div class="flexItem">1</div>
+      <div class="flexItem">2</div>
+      <div class="flexItem a">9</div>
+      <div class="flexItem">4</div>
+      <div class="flexItem b">50</div>
+      <div class="flexItem">6</div>
+    </div>
+  </body>
+</html>

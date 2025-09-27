@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        height: 80vh;
+        width: 40vw;
+        border: 1px solid red;
+      }
+      p {
+        background-color: red;
+        color: yellow;
+        font-size: 20px;
+      }
+      .sticky {
+        position: sticky;
+        top: 100px;
+      }
+      .Relative {
+        position: relative;
+      }
+      .Absolute {
+        position: absolute;
+        right: 0px;
+      }
+      .fixed {
+        position: fixed;
+        bottom: 20px;
+        right: 0px;
+      }
+      .as {
+        /* margin: 20px; */
+        /* Top right bottom left */
+        /* margin: 10px 20px 30px 40px; */
+        margin: 30px 40px;
+        padding: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p class="as">Static</p>
+    </div>
+    <div>
+      <p class="sticky">sticky</p>
+    </div>
+    <div class="Relative">
+      <p class="Absolute">Absolute</p>
+    </div>
+    <div>
+      <p class="fixed">Fixed</p>
+    </div>
+  </body>
+</html>
